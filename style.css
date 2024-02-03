@@ -400,3 +400,40 @@ article .icon {
     background: rgb(250, 250, 250);
 }
 
+
+/* contact */
+
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container{
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    margin: 2rem auto;
+    padding: 0.5rem;
+    width: fit-content;
+}
+
+.contact-info-container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0.7rem;
+    margin: 1rem;
+}
+
+.contact-info-container p {
+    font-size: larger;
+    font-weight: 600;
+  }
+  
+.contact-icon {
+    cursor: default;
+}
