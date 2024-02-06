@@ -35,7 +35,7 @@ nav,
 nav{
     justify-content: space-around;
     align-items: center;
-    height: 17vh;
+    height: 16vh;
 }
 
 .nav-links{
@@ -147,7 +147,7 @@ a:hover{
 section{
     padding-top: 4vh;
     height: 96vh;
-    min-height: 500px;
+    min-height: fit-content;
     margin: 0 10rem;
     box-sizing: border-box;
 }
@@ -407,7 +407,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: fit-content;
 }
 
 .contact-info-upper-container{
@@ -437,3 +437,14 @@ article .icon {
 .contact-icon {
     cursor: default;
 }
+
+/* FOOTER */
+
+footer {
+    height: 26vh;
+    margin: 0 1rem;
+  }
+  
+  footer p {
+    text-align: center;
+  }
