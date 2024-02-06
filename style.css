@@ -448,3 +448,19 @@ footer {
   footer p {
     text-align: center;
   }
+
+.link_text1{
+    color: rgb(85,85,85);
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+.link_text1:hover{
+    list-style: none;
+    text-decoration: none;
+}
+
+.no-mouse{
+    cursor:default;
+}
