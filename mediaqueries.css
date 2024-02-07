@@ -86,6 +86,7 @@
 
     .contact-info-upper-container{
         justify-content: start;
+        width: 80vw;
     }
 
     .contact-info-container {
